@@ -1,0 +1,15 @@
+package Aula02_TiposReferenciais.Aula03;
+
+public class NovoObjeto {
+	private String nome;
+	
+	public NovoObjeto(String nome) {
+		this.nome = nome;
+	}
+	
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}

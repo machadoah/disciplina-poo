@@ -1,0 +1,16 @@
+package Aula02_TiposReferenciais.Aula03;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Teste teste = new Teste();
+		
+		System.out.println("quadrado do inteiro 10 = " + teste.quadrado(10));
+		System.out.println("quadrado do double 10.5 = " + teste.quadrado(10.5));
+		
+		teste.quadrado(10);
+		teste.quadrado(10.0);
+
+	}
+
+}

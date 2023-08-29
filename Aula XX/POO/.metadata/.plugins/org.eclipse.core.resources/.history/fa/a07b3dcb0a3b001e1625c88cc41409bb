@@ -1,0 +1,10 @@
+package Aula01;
+
+public class Usuario {
+	
+	String nome;
+	String login;
+	String senha;
+	
+
+}

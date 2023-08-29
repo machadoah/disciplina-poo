@@ -1,0 +1,19 @@
+package Aula02_TiposReferenciais.Exercicios;
+
+import javax.swing.JOptionPane;
+
+public class Fahrenheit {
+	
+	public static void main(String[] args) {
+		
+		String nome = JOptionPane.showInputDialog("Insira a temperatura em Celsius: ");
+		double c = Double.parseDouble(nome);
+		double fah = 5.0/9.0 * c + 32;
+		
+		StringBuilder mensagem = new StringBuilder();
+		mensagem.append("A temperatura ").append(nome).append(" corresponde a: ").append(fah).append("°F!");
+		
+		JOptionPane.showMessageDialog(null, mensagem);
+	}
+
+}

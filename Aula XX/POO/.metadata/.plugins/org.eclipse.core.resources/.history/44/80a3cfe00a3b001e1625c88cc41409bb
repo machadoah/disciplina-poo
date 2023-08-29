@@ -1,0 +1,21 @@
+package Aula01;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello World!");
+		
+		Usuario usuario = new Usuario();
+		
+		usuario.nome = "Antonio";
+		usuario.login = "machadoah";
+		usuario.senha = "123456789";
+		
+		System.out.printf("Meu nome é %s, meu usuário é %d e meu .",usuario.nome);
+		
+		
+		
+	}
+
+}

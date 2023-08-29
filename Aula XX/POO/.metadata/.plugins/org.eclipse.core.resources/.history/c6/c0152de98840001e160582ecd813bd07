@@ -1,0 +1,12 @@
+package Aula02_TiposReferenciais;
+
+import java.util.Date;
+
+public class Funcionario extends Usuario {
+	
+	public int numeroFuncionario;
+	
+	public void registrarHorario(Date hora) {
+
+	}
+}
