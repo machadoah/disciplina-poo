@@ -11,10 +11,12 @@ public class C extends B{
 
     // MÉTODOS
     public void a1(){
+        super.a1();
         System.out.println("Sou o método a1 da classe C");
     }
 
     public void b2(){
+        super.b2();
         System.out.println("Sou o método b2 da classe C");
     }
 
